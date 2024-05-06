@@ -1,0 +1,60 @@
+.sharingProcedure {
+    width: 187px;
+    height: 60px;
+    gap: 6px;
+    opacity: 0px;
+}
+.labelSharingProcedure {
+    width: 187px;
+    height: 19px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19.07px;
+    text-align: right;
+    color: #202E46;
+    font-family: Open Sans;
+}
+.optionRadio {
+    width: 187px;
+    height: 35px;
+    gap: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.optionRadio > div {
+    width: 82px;
+    height: 35px;
+    gap: 3px;
+    font-family: Open Sans;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.optionRadio > div :focus {
+    border: 1.5px solid #3872DC;
+    box-shadow: 0px 0px 0px 4px #DEEAFF;
+}
+.labelRadio {
+    width: 58px;
+    height: 19px;
+    opacity: 0px;
+    font-family: Open Sans Hebrew;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 19.07px;
+    text-align: right;
+}
+.checkboxSharingProcedure {
+    width: 16px;
+    height: 16px;
+    border-radius: 8px;
+    border: 1px;
+    border: 1px solid #9FAABC;
+    margin: 0;
+    padding: 0;
+}

@@ -1,0 +1,65 @@
+.navbar {
+    width: 56px;
+    height: 1024px;
+    padding: var(--S) 8px var(--S) 8px;
+    gap: 34px;
+    border: 0px 1px 0px 0px;
+    opacity: 0px;
+    background-color: #0A2A5D;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    opacity: 1;
+}
+.divOptionsButton {
+    width: 40px;
+    height: 40px;
+}
+img {
+    cursor: pointer;
+}
+.optionsButton {
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    gap: 8px;
+    border-radius: 8px;
+    opacity: 0px;
+    box-shadow: 0px 1px 2px 0px #1018280D;
+    background: #0A2A5D;
+    background-image: url('../../assets/Button.png');
+    border: none;
+    cursor: pointer;
+}
+.divButton2 {
+    width: 40px;
+    height: 40px;
+    gap: 24px;
+}
+.button2 {
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    gap: 8px;
+    border-radius: 8px;
+    opacity: 0px;
+    background: #3872DC;
+    box-shadow: 0px 1px 2px 0px #1018280D;
+    background-image: url('../../assets/Button2.png');
+    border: none;
+    cursor: pointer;
+}
+.emptyDiv{
+    width: 40px;
+    height: 718.21px;
+    gap: 24px;
+}

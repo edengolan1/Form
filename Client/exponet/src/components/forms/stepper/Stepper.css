@@ -1,0 +1,79 @@
+.stepper {
+    width: 1288px;
+    height: 93px;
+    text-align: right;
+    direction: rtl;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.steps {
+    width: 302px;
+    height: 61px;
+    gap: 16px;
+    opacity: 0px;
+    display: flex;
+    flex-direction: column;
+}
+.step {
+    width: 302px;
+    height: 24px;
+    display: flex;
+}
+.circle {
+    width: 24px;
+    height: 24px;
+    gap: 0px;
+    border-radius: 12px;
+    opacity: 0px;
+    background: #F8FBFF;
+    border: 1.5px solid #E8EAED;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.circle.active {
+    box-shadow: 0px 0px 0px 4px #DEEAFF;
+    border: 1.5px solid #3872DC;
+}
+  
+.step-label {
+    width: 250px;
+    height: 21px;
+    padding: 2px 0px 0px 0px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19.07px;
+    text-align: right;
+    color: #667694;
+}
+.step-label.active {
+    color: #3872DC;
+}
+  
+.line {
+    position: relative;
+    top: 12px;
+    width: 278px;
+    height: 0px;
+    gap: 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    angle: -180 deg;
+    border: 1px solid #E8EAED;
+}
+.dot {
+    width: 8px;
+    height: 8px;
+    gap: 0px;
+    opacity: 0px;
+    background: #E8EAED;
+    border-radius: 12px;
+}
+.dot.active {
+    background: #3872DC;
+}

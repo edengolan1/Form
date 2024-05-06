@@ -1,0 +1,70 @@
+.deadline {
+    width: 1288px;
+    height: 180px;
+    padding: var(--L);
+    gap: 24px;
+    border-radius: 16px;
+    border: 1px;
+    opacity: 0px;
+    background: #FFFFFF;
+    border: 1px solid #E8EAED;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+.divDeadline {
+    width: 1224px;
+    height: 116px;
+    gap: 24px;
+    opacity: 0px;
+}
+.divDeadline>h3 {
+    font-family: Open Sans;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    text-align: right;
+    color: #202E46;
+}
+.dates {
+    width: 1224px;
+    height: 60px;
+    gap: 24px;
+    opacity: 0px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.dates >div{
+    width: 600px;
+    height: 60px;
+    gap: 6px;
+}
+.startDate :focus {
+    border: 1.5px solid #3872DC;
+    box-shadow: 0px 0px 0px 4px #DEEAFF;
+}
+.endDate :focus {
+    border: 1.5px solid #3872DC;
+    box-shadow: 0px 0px 0px 4px #DEEAFF;
+}
+.labelDate {
+    width: 600px;
+    height: 19px;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19.07px;
+    text-align: right;
+    color: #202E46;
+}
+.inputDate {
+    width: 600px;
+    height: 35px;
+    gap: 6px;
+    margin-top: 7px;
+    border-radius: 8px;
+    border: 1px;
+    border: 1px solid #E8EAED;
+    cursor: pointer;
+}

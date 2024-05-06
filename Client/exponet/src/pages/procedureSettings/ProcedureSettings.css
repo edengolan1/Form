@@ -1,0 +1,46 @@
+.pageProcedureSettings {
+    display: flex;
+    justify-content: center;
+    width: 1384px;
+    gap: 10px;
+    padding: 48px 32px; 
+}
+.divProcedureSettings {
+    width: 1288px;
+    gap: 24px;
+    display: flex;
+    text-align: right;
+    flex-direction: column;
+    align-items: center;
+}
+.divProcedureSettings>form>div{
+    margin: 24px;
+}
+.buttonSubmit {
+    width: 1288px;
+    height: 39px;
+    gap: 10px;
+    opacity: 0px;    
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.submit {
+    width: 68px;
+    height: 39px;
+    gap: 8px;
+    border-radius: 8px;
+    background-color: #3872DC;
+    box-shadow: 0px 1px 2px 0px #1018280D;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19.07px;
+    text-align: center;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.buttonSubmit :hover{
+    box-shadow: 0px 0px 0px 4px #DEEAFF;
+}

@@ -1,0 +1,61 @@
+.TurnOnBox {
+    width: 392px;
+    height: 20px;
+    gap: var(--XS);
+    opacity: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.labelTurnOnBox {
+    width: 348px;
+    height: 19px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19.07px;
+    text-align: right;
+    color: #202E46;
+    margin-right: 7px;
+}
+
+.toggle-checkbox {
+    display: none;
+}
+  
+.toggle-label {
+    display: inline-block;
+    width: 36px; 
+    height: 20px; 
+    gap: 10px;
+    border-radius: 12px;
+    opacity: 0px;
+    background: #EAF2FF;
+    position: relative;
+    cursor: pointer;
+}
+  
+.toggle-label:before {
+    content: '';
+    position: absolute;
+    top: 1.5px;
+    left: -1.5px;
+    width: 16px;
+    height: 16px;
+    gap: 0px;
+    opacity: 0px;
+    background: #F8FBFF;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+    box-shadow: 0px 1px 2px 0px #1018280F;
+    box-shadow: 0px 1px 3px 0px #1018281A;
+}
+  
+.toggle-checkbox:checked + .toggle-label:before {
+    transform: translateX(20px);
+}
+.toggle-checkbox:checked + .toggle-label {
+    background: #3872DC;
+}

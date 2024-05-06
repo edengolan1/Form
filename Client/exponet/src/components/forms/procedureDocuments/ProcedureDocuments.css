@@ -1,0 +1,261 @@
+.ProcedureDocuments {
+    width: 1288px;
+    gap: 24px;
+    border-radius: 16px;
+    border: 1px;
+    opacity: 0px;
+    background: #FFFFFF;
+    border: 1px solid #E8EAED;
+    display: flex;
+    justify-content: center;
+}
+.divProcedureDocuments {
+    width: 1224px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+.titleProcedureDocuments{
+    width: 1224px;
+    height: 32px;
+    gap: 24px;
+    font-family: Open Sans;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    text-align: right;
+    color: #202E46;
+}
+.divUploadDocuments {
+    width: 1224px;
+    height: 219px;
+    gap: 6px;
+    opacity: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: dotted;
+    border: 1.5px dashed #9FAABC;
+}
+.uploadDocuments {
+    width: 168px;
+    height: 171px;
+    gap: 24px;
+    opacity: 0px;
+}
+.inputFile {
+    display: none;
+}
+.allFiles {
+    width: 1224px;
+    gap: 0px;
+    border-radius: 12px;
+    opacity: 0px;
+    display: flex;
+    flex-direction: column;
+    margin: 24px;
+}
+.allFiles>div {
+    width: 1224px;
+    height: 131px; 
+    margin-bottom: 24px;
+    background: #F9FAFB;
+    border-radius: 12px;
+}
+.Operationsfile {
+    width: 1224px;
+    height: 64px;
+    gap: 16px;
+    border: 0px 0px 1px 0px;
+    opacity: 0px;
+    border-bottom: 1px solid #E8EAED;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+.divButtonMoving {
+    width: 32px;
+    height: 32px;
+    padding: 10px;
+    gap: 8px;
+    border-radius: 8px;
+    opacity: 0px;
+}
+.filesOptions {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    width: 128px;
+    height: 40px;
+    gap: 8px;
+    opacity: 0px;
+}
+.private {
+    width: 40px;
+    height: 20px;
+    padding: 10px;
+    gap: 8px;
+    border-radius: 8px;
+    opacity: 0px;
+    background: #F9FAFB;
+
+}
+.buttonPrivate {
+    background-image: url('../../../assets/lock.png');
+    border: none;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+.privateAndDelete {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    width: 80px;
+    height: 40px;
+    gap: 0px;
+    opacity: 0px;
+}
+.delete {
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    gap: 8px;
+    border-radius: 8px;
+    opacity: 0px;
+}
+.buttonDelete {
+    width: 20px;
+    height: 20px;
+    padding: 1.67px 2.5px 1.67px 2.5px;
+    gap: 0px;
+    opacity: 0px;
+    border: none;
+    cursor: pointer;
+    background-image: url('../../../assets/delete.png');
+}
+.more {
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    gap: 8px;
+    border-radius: 8px;
+    opacity: 0px;
+}
+.buttonMore {
+    width: 20px;
+    height: 20px;
+    padding: 0px 5px 0px 5px;
+    gap: 0px;
+    opacity: 0px;
+    border: none;
+    cursor: pointer;
+    background-image: url('../../../assets/arrow-up.png');
+    transition: transform 0.3s ease;
+}
+.buttonMore.active {
+    transform: rotate(180deg);
+}
+.buttonMoving {
+    background-image: url('../../../assets/ButtonMoving.png');
+    width: 32px;
+    height: 32px;
+    border: none;
+    background-color: #F9FAFB;
+    cursor: pointer;
+}
+.smallImageFile {
+    width: 24px;
+    height: 24px;
+    gap: 0px;
+    opacity: 0px;
+}
+.pdf {
+    background-image: url('../../../assets/pdf.png');
+    border: none;
+    background-color: #F9FAFB;
+    width: 19px;
+    height: 19px;
+    top: 2px;
+    left: 3px;
+    gap: 0px;
+    opacity: 0px;
+    cursor: pointer;
+}
+.nameOfFile {
+    width: 968px;
+    height: 19px;
+    gap: 8px;
+    opacity: 0px;
+}
+.nameOfFile>span {
+    font-family: Open Sans;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    text-align: right;
+    color: #667085;    
+}
+.nameFile {
+    width: 1224px;
+    height: 67px;
+    padding: 8px 0px 8px 0px;
+    gap: 0px;
+    opacity: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+.divNameFile {
+    width: 1224px;
+    height: 51px;
+    gap: 0px;
+    opacity: 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: start;
+    text-align: center;
+}
+.divNameFile>input[type="text"] {
+    width: 1080px;
+    height: 35px;
+    opacity: 0px;
+    gap: 8px;
+    border-radius: 8px;
+    border: 1px;
+    border: 1px solid #E8EAED;
+    background: #FFFFFF;
+    text-align: right;
+    outline: none;
+}
+.divNameFile :focus{
+    box-shadow: 0px 0px 0px 4px #DEEAFF;
+}
+.divNameFile>input[type="text"] :focus {
+    border: 1.5px solid #3872DC;
+}
+.divNameFile>label {
+    width: 100px;
+    height: 19px;
+    gap: 4px;
+    opacity: 0px;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19.07px;
+    text-align: right;
+    padding-top: 9px;
+}
+.divNameFile>label>span {
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19.07px;
+    text-align: right;
+    color: #F04438;
+}

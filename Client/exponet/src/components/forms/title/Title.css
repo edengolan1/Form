@@ -1,0 +1,51 @@
+.title {
+    width: 1288px;
+    height: 38px;
+    gap: 12px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: end;
+    align-items: center;
+}
+.arrow-right {
+    background-image: url('../../../assets/arrow-right.png');
+    width: 20px;
+    height: 20px;
+}
+.textTitle {
+    font-family: Open Sans , sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 38px;
+    text-align: right;
+    color: #202E46;
+    width: 231px;
+    height: 38px;
+    gap: 0px;
+    opacity: 0px;
+}
+.numberOfProcedure {
+    width: 94px;
+    height: 19px;
+    padding: 2px 6px 2px 6px;
+    gap: 4px;
+    border-radius: 16px;
+    opacity: 0px;
+    background: #E8EAED;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.caption {
+    width: 82px;
+    height: 15px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Open Sans;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 15px;
+    text-align: center;
+    color: #11244F;
+}

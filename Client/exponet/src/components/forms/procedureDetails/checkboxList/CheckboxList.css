@@ -1,0 +1,58 @@
+.afterFinished {
+    width: 348px;
+    height: 60px;
+    gap: 6px;
+    font-family: Open Sans;
+}
+.labelCheckbox {
+    width: 348px;
+    height: 19px;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19.07px;
+    text-align: right;
+    color: #202E46;
+}
+.CheckboxList {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    gap: 24px;
+}
+.CheckboxList :focus{
+    box-shadow: 0px 0px 0px 4px #DEEAFF;
+}
+.divCheckboxList {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 11px;
+}
+.divCheckboxList>div{
+    height: 100%;
+    gap: 8px;
+}
+.item {
+    font-family: Open Sans Hebrew;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.07px;
+    text-align: right;
+    font-family: Open Sans;
+}
+.checked {
+    width: 16px;
+    height: 16px;
+    border-radius: 4px;
+    border: 1px;
+    opacity: 0px;
+    border: 1px solid #9FAABC;
+    cursor: pointer;
+}
+input[type="checkbox"]:checked {
+    background-color: #202E46;
+}

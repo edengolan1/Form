@@ -1,0 +1,43 @@
+.nameProcedure {
+    width: 320px;
+    height: 60px;
+    gap: 6px;
+    display: flex;
+    flex-direction: column;
+}
+.labelName {
+    width: 320px;
+    height: 19px;
+    gap: 8px;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19.07px;
+    text-align: right;
+}
+.inputNameProcedure {
+    width: 320px;
+    height: 35px;
+    gap: 8px;
+    border-radius: 8px;
+    border: 1px;
+    opacity: 0px;
+    background: #FFFFFF;
+    border: 1px solid #E8EAED;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.07px;
+    text-align: right;
+    color: #0A2A5D;
+    outline: none;
+    padding: 0;
+    padding-right: 5px;
+}
+.inputNameProcedure :focus {
+    border: 1.5px solid #3872DC;
+}
+.nameProcedure :focus{
+    border: 1.5px solid #3872DC;
+    box-shadow: 0px 0px 0px 4px #DEEAFF;
+}

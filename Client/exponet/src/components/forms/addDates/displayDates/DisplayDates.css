@@ -1,0 +1,51 @@
+.displayDates {
+    width: 1288px;
+    gap: 24px;
+    border-radius: 16px;
+    border: 1px;
+    opacity: 0px;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.displayDates > div {
+    display: flex;
+}
+.inputDisplayDate {
+    width: 1224px;
+    height: 92px;
+    gap: 28px;
+    opacity: 0px;   
+    border-radius: var(--XS);
+    opacity: 0px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+.inputDisplayDate>div {
+    display: flex;
+    flex-direction: column;
+}
+.inputDisplayDate>div> input[type="text"],input[type="date"] {
+    width: 584px;
+    height: 35px;
+    gap: 8px;
+    border-radius: 8px;
+    border: 1px;
+    opacity: 0px;
+    background: #FFFFFF;
+    border: 1px solid #E8EAED;
+    text-align: right;
+    font-family: Open Sans Hebrew;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.07px;
+    color: #9FAABC;
+    margin-top: 7px;
+    /* padding: 4px; */
+    outline: none;
+}

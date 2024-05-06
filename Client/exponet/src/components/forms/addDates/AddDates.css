@@ -1,0 +1,130 @@
+.addDates {
+    width: 1288px;
+    height: 220px;
+    padding: var(--L);
+    gap: 24px;
+    border-radius: 16px;
+    border: 1px;
+    opacity: 0px;
+    background: #FFFFFF;
+    border: 1px solid #E8EAED;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.divAddDates {
+    width: 1224px;
+    height: 156px;
+    gap: 24px;
+    opacity: 0px;
+    display: flex;
+    flex-direction: column;
+}
+.labelAndButton {
+    width: 1224px;
+    height: 40px;
+    gap: 24px;
+    opacity: 0px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.labelAndDates {
+    width: 1060px;
+    height: 40px;
+    gap: 0px;
+    opacity: 0px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.labelAndDates>h3 {
+    font-family: Open Sans;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    text-align: right;
+    color: #202E46;
+}
+.buttonAddDate {
+    width: 140px;
+    height: 40px;
+    gap: 8px;
+    border-radius: 8px;
+    border: 1px;
+    opacity: 0px;
+    background: #FFFFFF;
+    border: 1px solid #EAF2FF;
+    box-shadow: 0px 1px 2px 0px #1018280D;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.buttonAddDate > button {
+    gap: 0px;
+    opacity: 0px;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19.07px;
+    text-align: left;
+    color: #3872DC;
+    border: none;
+    background: #FFFFFF;
+    cursor: pointer;
+}
+.buttonAddDate > button >img {
+    padding-left: 7px;
+    width: 11.67px;
+    height: 11.67px;
+    top: 4.17px;
+    left: 4.17px;
+    gap: 0px;
+    border: 1.67px;
+    opacity: 0px;    
+}
+.inputDates {
+    width: 1224px;
+    height: 92px;
+    gap: 28px;
+    opacity: 0px;   
+    gap: 24px;
+    border-radius: 8px;
+    opacity: 0px;
+    background: #F9FAFB;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+.inputDates>div {
+    display: flex;
+    flex-direction: column;
+}
+.inputDates>div :focus {
+    border: 1.5px solid #3872DC;
+    box-shadow: 0px 0px 0px 4px #DEEAFF;
+}
+.inputDates>div> input[type="date"]{
+    cursor: pointer;
+}
+.inputDates>div> input[type="text"],input[type="date"] {
+    width: 584px;
+    height: 35px;
+    gap: 8px;
+    border-radius: 8px;
+    border: 1px;
+    opacity: 0px;
+    background: #FFFFFF;
+    border: 1px solid #E8EAED;
+    text-align: right;
+    font-family: Open Sans Hebrew;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.07px;
+    color: #9FAABC;
+    margin-top: 7px;
+    outline: none;
+}
