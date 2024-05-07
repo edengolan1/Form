@@ -136,10 +136,7 @@ function SammryAndSubmit() {
               <h3 className="h3">קבצים</h3>
               {filesData.map((file, index) => (
                 <div key={index}>
-                  <DivData label="id" value={file.id}/>
                   <DivData label="שם הקובץ" value={file.fileName}/>
-                  <DivData label="גודל הקובץ" value={file.fileSize}/>
-                  <DivData label="סוג הקובץ" value={file.fileType}/>
                 </div>
               ))}
             </div>

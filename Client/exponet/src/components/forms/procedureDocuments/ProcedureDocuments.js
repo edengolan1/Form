@@ -50,7 +50,7 @@ function ProcedureDocuments({ onFilesChange }) {
     const handleMoreClick = (index,e) => {
         e.preventDefault();
         const updatedShowNameFile = [...showNameFile];
-        updatedShowNameFile[index] = !updatedShowNameFile[index]; // Toggle visibility
+        updatedShowNameFile[index] = !updatedShowNameFile[index]; 
         setShowNameFile(updatedShowNameFile);
     };
 

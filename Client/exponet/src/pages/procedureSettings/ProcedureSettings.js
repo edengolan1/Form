@@ -56,7 +56,9 @@ function ProcedureSettings() {
               MultipleApplications: formData.procedureDetails.MultipleApplications,
               RenewApplications: formData.procedureDetails.RenewApplications,
               minCount: formData.procedureDetails.minCount,
-              files: formData.files,
+              files: formData.files.map(file => ({
+                uploadedFiles: { fileName: file.name, fileSize: file.size, fileType: file.type }
+                })),
               dates: formData.dates,
               components: formData.components,
               subcomponents: formData.subcomponents

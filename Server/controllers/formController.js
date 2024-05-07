@@ -34,9 +34,9 @@ exports.submitForm = async (req, res) => {
         files.map(async (file) => {
           const request = poolRequest.request(); 
           await request
-            .input("Name", mssql.NVarChar, file.fileName)
-            .input("fileSize", mssql.NVarChar, file.fileSize)
-            .input("fileType", mssql.NVarChar, file.fileType)
+            .input("Name", mssql.NVarChar, file.uploadedFiles?.fileName)
+            .input("fileSize", mssql.NVarChar, file.uploadedFiles?.fileSize)
+            .input("fileType", mssql.NVarChar, file.uploadedFiles?.fileType)
             .input("formId", mssql.Int, formId).query(`
               INSERT INTO Files (formId, fileName, fileSize, fileType)
               VALUES (@formId, @Name, @fileSize, @fileType);
